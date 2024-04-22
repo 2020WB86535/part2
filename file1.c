@@ -1,7 +1,11 @@
 #include <stdio.h>
  
 // Function to add two numbers
+<<<<<<< HEAD
 int sum(int num1, int num2) {
+=======
+int add(int num1, int num2) {
+>>>>>>> branch1
     return num1 + num2;
 }
  
@@ -15,7 +19,8 @@ int main() {
     scanf("%d", &number2);
  
     // Call the add function and store the result
-    result = sum(number1, number2);
+    
+>>>>>>> branch1
  
     // Display the result
     printf("The sum of %d and %d is %d\n", number1, number2, result);
